@@ -1,0 +1,164 @@
+/* Mobile devices */
+@media screen and (max-device-width: 480px) {
+    nav.header {
+        position: fixed;
+        left: 0;
+        right: 0;
+        z-index: 1000 !important;
+    }
+
+    .top-header-title {
+        font-size: 18px;
+        line-height: 17px;
+    }
+
+    .navbar-nav.sidebar {
+        position: fixed;
+        z-index: 1005 !important;
+    }
+
+    .container-fluid {
+        margin-top: 100px;
+    }
+
+    .searchArea {
+        display: contents;
+    }
+
+    .searchArea form{
+        width: 100% !important;
+    }
+    .searchArea .srchbtn{
+        width: 100% !important;
+        margin-left: 10px;
+    }
+
+    .lostReportFilterFrm .form-group{
+        width: 100% !important;
+    }
+      
+}
+
+/* iPads, Tablets */
+@media screen and (min-device-width: 481px) and (max-device-width: 767px) {
+
+    nav.header {
+        position: fixed;
+        left: 0;
+        right: 0;
+        z-index: 1000 !important;
+    }
+
+    .top-header-title {
+        font-size: 18px;
+        line-height: 17px;
+    }
+
+    .navbar-nav.sidebar {
+        position: fixed;
+        z-index: 1005 !important;
+    }
+
+    .container-fluid {
+        margin-top: 100px;
+    }
+
+    .searchArea {
+        display: contents;
+    }
+
+    .searchArea .srchbtn{
+        /* width: 100% !important; */
+        margin-left: 10px;
+    }
+
+}
+
+/* Small screens, laptops */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+
+    nav.header {
+        position: fixed;
+        left: 120px;
+        right: 0;
+        z-index: 1000 !important;
+    }
+
+    .navbar-nav.sidebar {
+        position: fixed;
+        z-index: 1005 !important;
+    }
+
+    .container-fluid {
+        margin-top: 100px;
+    }
+
+    #wrapper #content-wrapper{
+        margin-left:120px;
+        height: 100vh;
+    }
+
+    .sidebar {
+        width: 10rem!important;
+    }
+
+    .lostReportFilterFrm .btn-group{
+        clear: both;
+    }
+}
+
+/* Desktops, large screens */
+@media screen and (min-device-width: 1025px) and (max-device-width: 1200px) {
+    nav.header {
+        position: fixed;
+        left: 120px;
+        right: 0;
+        z-index: 1000 !important;
+    }
+
+    .navbar-nav.sidebar {
+        position: fixed;
+        z-index: 1005 !important;
+    }
+
+    .container-fluid {
+        margin-top: 100px;
+    }
+
+    #wrapper #content-wrapper{
+        margin-left:120px;
+        height: 100vh;
+    }
+
+    .sidebar {
+        width: 10rem!important;
+    }
+}
+
+/* Extra large screens, TV */
+@media screen and (min-device-width: 1201px) {
+    nav.header {
+        position: fixed;
+        left: 120px;
+        right: 0;
+        z-index: 1000 !important;
+    }
+
+    .navbar-nav.sidebar {
+        position: fixed;
+        z-index: 1005 !important;
+    }
+
+    .container-fluid {
+        margin-top: 100px;
+    }
+
+    #wrapper #content-wrapper{
+        margin-left:120px;
+        height: 100vh;
+    }
+
+    .sidebar {
+        width: 10rem!important;
+    }
+}
